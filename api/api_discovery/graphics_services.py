@@ -42,7 +42,7 @@ class GraphicsServices(safrs.JABase):
     pass
 
     @classmethod
-    @jsonapi_rpc(http_methods=['POST','GET'])
+    @jsonapi_rpc(http_methods=['POST', 'GET'])
     def sales_by_region_query(self, *args, **kwargs):
         """        
         Illustrates:
